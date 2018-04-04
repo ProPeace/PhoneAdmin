@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{06F8099D-F1ED-4ADA-96BC-D04ECF426B4D}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/AlarmActivity.cs">
+    <Files>
+      <File FileName="Alarm/AlarmPage.xaml" Line="8" Column="1" />
+      <File FileName="Alarm/AlarmPage.xaml.cs" Line="14" Column="16" />
+      <File FileName="Droid/PeriodicService.cs" Line="6" Column="1" />
+      <File FileName="Droid/BackgroundReceiver.cs" Line="12" Column="74" />
+      <File FileName="Droid/MainActivity.cs" Line="13" Column="55" />
+      <File FileName="Droid/AlarmActivity.cs" Line="27" Column="48" />
+      <File FileName="Droid/AlarmListener.cs" Line="13" Column="70" />
+      <File FileName="Droid/VoiceService.cs" Line="19" Column="40" />
+      <File FileName="Droid/DeviceAdminLock.cs" Line="13" Column="55" />
+      <File FileName="Droid/Resources/drawable/device_admin_sample.xml" Line="9" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Alarm.Droid PreferredExecutionTarget="Android.330093693690a2a5" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Alarm.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C31B5E9A-D0B7-4A52-A737-C54F59A4A6C0" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Alarm.iOS>
+</Properties>

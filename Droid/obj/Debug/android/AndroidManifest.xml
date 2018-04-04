@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.vviane.Alarm">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Alarm" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Alarm.Droid" android:theme="@style/MyTheme" android:name="md55d6e2c79a0ee6da418a42e0561536f7d.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="md55d6e2c79a0ee6da418a42e0561536f7d.BackgroundReceiver" />
+    <service android:name="md55d6e2c79a0ee6da418a42e0561536f7d.PeriodicService" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="AlarmActivity" android:theme="@style/MyTheme" android:name="md55d6e2c79a0ee6da418a42e0561536f7d.AlarmActivity" />
+    <service android:name="md55d6e2c79a0ee6da418a42e0561536f7d.VoiceService" />
+    <receiver android:permission="android.permission.BIND_DEVICE_ADMIN" android:name="md55d6e2c79a0ee6da418a42e0561536f7d.DeviceAdminLock">
+      <meta-data android:name="android.app.device_admin" android:resource="@drawable/device_admin_sample" />
+      <intent-filter>
+        <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+        <action android:name="android.intent.action.MAIN" />
+      </intent-filter>
+    </receiver>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.vviane.Alarm.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.vviane.Alarm" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+  </application>
+  <receiver android:name=".DeviceAdminLock">
+    <meta-data android:name="android.app.device_admin" android:resource="@drawable/device_admin_sample" />
+    <intent-filter>
+      <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+    </intent-filter>
+  </receiver>
+</manifest>
