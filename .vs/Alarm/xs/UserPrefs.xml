@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{06F8099D-F1ED-4ADA-96BC-D04ECF426B4D}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/AlarmActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../MeetYou/meet-you/MeetYou/Helpers/API/DataProvider.cs">
     <Files>
-      <File FileName="Alarm/AlarmPage.xaml" Line="8" Column="1" />
-      <File FileName="Alarm/AlarmPage.xaml.cs" Line="14" Column="16" />
-      <File FileName="Droid/PeriodicService.cs" Line="6" Column="1" />
-      <File FileName="Droid/BackgroundReceiver.cs" Line="12" Column="74" />
-      <File FileName="Droid/MainActivity.cs" Line="13" Column="55" />
-      <File FileName="Droid/AlarmActivity.cs" Line="27" Column="48" />
-      <File FileName="Droid/AlarmListener.cs" Line="13" Column="70" />
-      <File FileName="Droid/VoiceService.cs" Line="19" Column="40" />
-      <File FileName="Droid/DeviceAdminLock.cs" Line="13" Column="55" />
-      <File FileName="Droid/Resources/drawable/device_admin_sample.xml" Line="9" Column="24" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Helpers/API/DataProvider.cs" Line="582" Column="79" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Helpers/API/HttpService.cs" Line="153" Column="1" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Models/Event.cs" Line="196" Column="36" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Views/ContentViews/MasterDetailContentViews/EventDetailsContentView.xaml.cs" Line="383" Column="96" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Views/ContentViews/MasterDetailContentViews/EventDetailsContentView.xaml" Line="529" Column="1" />
+      <File FileName="../MeetYou/meet-you/MeetYou/ViewModels/MasterDetailContentViewModels/EventDetailsViewModel.cs" Line="178" Column="45" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Views/CustomCells/EventCell.xaml.cs" Line="90" Column="51" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Views/CustomCells/EventCell.xaml" Line="163" Column="1" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Views/ContentViews/MasterDetailContentViews/PaymentContentView.xaml.cs" Line="112" Column="88" />
+      <File FileName="../MeetYou/meet-you/MeetYou/ViewModels/MasterDetailContentViewModels/CreateEventViewModel.cs" Line="467" Column="33" />
+      <File FileName="../MeetYou/meet-you/MeetYou/Models/Payload.cs" Line="39" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Alarm.Droid PreferredExecutionTarget="Android.330093693690a2a5" />
+  <MonoDevelop.Ide.ItemProperties.Alarm.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

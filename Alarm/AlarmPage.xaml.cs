@@ -8,7 +8,7 @@ namespace Alarm
         {
             InitializeComponent();
 
-            DependencyService.Get<IAlarmListener>().startListening(5);
+            DependencyService.Get<IAlarmListener>().startListening(3);
 
             //MessagingCenter.Subscribe<object, string>(this, "UpdateLabel", (s, e) =>
             //{
